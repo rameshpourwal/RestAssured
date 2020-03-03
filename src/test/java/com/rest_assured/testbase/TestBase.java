@@ -65,8 +65,8 @@ public class TestBase {
 	@AfterSuite
 	public void showAllureReport() throws IOException, InterruptedException {
 		processUtils.showAllureReport();
-		//kibanaStatus.closeKibanaServer();
-		//processUtils.killKibanaProcess();
+		kibanaStatus.closeKibanaServer();
+		processUtils.killKibanaProcess();
 	}
 
 }
