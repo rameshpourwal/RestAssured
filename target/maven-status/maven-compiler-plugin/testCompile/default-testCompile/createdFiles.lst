@@ -1,0 +1,5 @@
+com\rest_assured\smokeapi\Registartion.class
+com\rest_assured\smokeapi\GetWeatherData.class
+com\rest_assured\smokeapi\PutDataTest.class
+com\rest_assured\testbase\TestBase.class
+com\rest_assured\smokeapi\DeleteData.class

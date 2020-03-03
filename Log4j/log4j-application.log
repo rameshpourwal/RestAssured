@@ -1,0 +1,14 @@
+2020-03-03 13:37:12 INFO  CustomLog:25 - ProcessUtils:43	-	Elastic search data deleted successfully
+2020-03-03 13:37:24 INFO  CustomLog:25 - RestExecutor:54	-	Call GET request /api/unknown/2
+2020-03-03 13:37:29 INFO  CustomLog:25 - RestValidator:25	-	Validate the response code 200
+2020-03-03 13:37:29 INFO  CustomLog:25 - RestValidator:35	-	Validate the response body  name
+2020-03-03 13:37:29 INFO  CustomLog:25 - RestValidator:56	-	Validate the header message  keep-alive
+2020-03-03 13:37:36 INFO  CustomLog:25 - RestExecutor:67	-	Call POST request /api/users
+2020-03-03 13:37:37 INFO  CustomLog:25 - RestValidator:25	-	Validate the response code 201
+2020-03-03 13:37:37 INFO  CustomLog:25 - RestValidator:35	-	Validate the response body  id
+2020-03-03 13:37:43 INFO  CustomLog:25 - RestExecutor:67	-	Call PUT request /api/users/2
+2020-03-03 13:37:43 INFO  CustomLog:25 - RestValidator:25	-	Validate the response code 200
+2020-03-03 13:37:43 INFO  CustomLog:25 - RestValidator:56	-	Validate the header message  keep-alive
+2020-03-03 13:37:49 INFO  CustomLog:25 - RestExecutor:54	-	Call DELETE request /api/users/2
+2020-03-03 13:37:50 INFO  CustomLog:25 - RestValidator:25	-	Validate the response code 200
+2020-03-03 13:38:05 INFO  CustomLog:25 - ProcessUtils:31	-	Allure server started successfully

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite - framework">
+  <listeners>
+    <listener class-name="com.rest_assured.elasticsearch.ExecutionListener"/>
+  </listeners>
+  <test thread-count="5" name="api_Test ">
+    <classes>
+      <class name="com.rest_assured.smokeapi.GetWeatherData"/>
+      <class name="com.rest_assured.smokeapi.Registartion"/>
+      <class name="com.rest_assured.smokeapi.PutDataTest"/>
+      <class name="com.rest_assured.smokeapi.DeleteData"/>
+    </classes>
+  </test> <!-- api_Test  -->
+</suite> <!-- Test Suite - framework -->

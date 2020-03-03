@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 57.927 s <<< FAILURE! - in TestSuite
+deleteData(com.rest_assured.smokeapi.DeleteData)  Time elapsed: 0.895 s  <<< FAILURE!
+java.lang.AssertionError: Incorrect response code expected [200] but found [204]
+	at com.rest_assured.smokeapi.DeleteData.deleteData(DeleteData.java:28)
+
